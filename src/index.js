@@ -16,7 +16,7 @@ const corners = Hex().corners()
 
 const hexSymbol = draw.symbol()
     .polygon(corners.map(({ x, y }) => `${x},${y}`))
-    .fill('none')
+    .fill(Config.map.fill)
     .stroke({ width: Config.map.strokeWidth, color: Config.map.strokeColor })
 
 Grid.rectangle({ width: Config.map.width, height: Config.map.height }).forEach(hex => {

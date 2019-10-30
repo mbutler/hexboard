@@ -140,7 +140,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nvar map = exports.map = {\n    width: 100,\n    height: 500,\n    hexSize: 25,\n    divContainer: 'stage',\n    orientation: 'flat',\n    strokeWidth: 1,\n    strokeColor: '#D0D0D0'\n};\n\n//# sourceURL=webpack:///./src/config.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nvar map = exports.map = {\n    width: 100,\n    height: 100,\n    hexSize: 25,\n    divContainer: 'stage',\n    orientation: 'flat',\n    strokeWidth: 1,\n    strokeColor: '#D0D0D0'\n};\n\n//# sourceURL=webpack:///./src/config.js?");
 
 /***/ }),
 

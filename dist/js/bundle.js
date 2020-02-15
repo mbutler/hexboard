@@ -152,7 +152,19 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _honeycombGrid = __webpack_require__(/*! honeycomb-grid */ \"./node_modules/honeycomb-grid/dist/honeycomb.esm.min.js\");\n\nvar Honeycomb = _interopRequireWildcard(_honeycombGrid);\n\nvar _animejs = __webpack_require__(/*! animejs */ \"./node_modules/animejs/lib/anime.es.js\");\n\nvar Anime = _interopRequireWildcard(_animejs);\n\nvar _config = __webpack_require__(/*! ./config */ \"./src/config.js\");\n\nvar Config = _interopRequireWildcard(_config);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nvar SVG = __webpack_require__(/*! svg.js */ \"./node_modules/svg.js/dist/svg.js\");\n\n\nvar draw = SVG(Config.map.divContainer);\n\nvar Hex = Honeycomb.extendHex({\n    size: Config.map.hexSize,\n    orientation: Config.map.orientation\n});\n\nvar Grid = Honeycomb.defineGrid(Hex);\n\nvar corners = Hex().corners();\n\nvar hexSymbol = draw.symbol().polygon(corners.map(function (_ref) {\n    var x = _ref.x,\n        y = _ref.y;\n    return x + ',' + y;\n})).fill(Config.map.fill).stroke({ width: Config.map.strokeWidth, color: Config.map.strokeColor });\n\nGrid.rectangle({ width: Config.map.width, height: Config.map.height }).forEach(function (hex) {\n    var _hex$toPoint = hex.toPoint(),\n        x = _hex$toPoint.x,\n        y = _hex$toPoint.y;\n\n    draw.use(hexSymbol).translate(x, y);\n});\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nvar _map = __webpack_require__(/*! ./map */ \"./src/map.js\");\n\nvar _map2 = _interopRequireDefault(_map);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/map.js":
+/*!********************!*\
+  !*** ./src/map.js ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar _svg = __webpack_require__(/*! svg.js */ \"./node_modules/svg.js/dist/svg.js\");\n\nvar _svg2 = _interopRequireDefault(_svg);\n\nvar _honeycombGrid = __webpack_require__(/*! honeycomb-grid */ \"./node_modules/honeycomb-grid/dist/honeycomb.esm.min.js\");\n\nvar Honeycomb = _interopRequireWildcard(_honeycombGrid);\n\nvar _animejs = __webpack_require__(/*! animejs */ \"./node_modules/animejs/lib/anime.es.js\");\n\nvar Anime = _interopRequireWildcard(_animejs);\n\nvar _config = __webpack_require__(/*! ./config */ \"./src/config.js\");\n\nvar Config = _interopRequireWildcard(_config);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * This module handles creating the hex grid and individual hex methods\n * @module Map\n * @namespace\n */\n\nvar draw = (0, _svg2.default)(Config.map.divContainer);\n\nvar Hex = Honeycomb.extendHex({\n    size: Config.map.hexSize,\n    orientation: Config.map.orientation\n});\n\nvar Grid = Honeycomb.defineGrid(Hex);\n\nvar corners = Hex().corners();\n\nvar hexSymbol = draw.symbol().polygon(corners.map(function (_ref) {\n    var x = _ref.x,\n        y = _ref.y;\n    return x + ',' + y;\n})).fill(Config.map.fill).stroke({ width: Config.map.strokeWidth, color: Config.map.strokeColor });\n\nGrid.rectangle({ width: Config.map.width, height: Config.map.height }).forEach(function (hex) {\n    var _hex$toPoint = hex.toPoint(),\n        x = _hex$toPoint.x,\n        y = _hex$toPoint.y;\n\n    draw.use(hexSymbol).translate(x, y);\n});\n\n//# sourceURL=webpack:///./src/map.js?");
 
 /***/ })
 

@@ -24,7 +24,7 @@
     "documentation": "^14.0.0",
     "mocha": "^5.2.0",
     "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^4.11.1"
   },
   "babel": {

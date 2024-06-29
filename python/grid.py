@@ -3,6 +3,7 @@
 
 import math
 import json
+import time
 from PIL import Image, ImageDraw
 
 
@@ -314,3 +315,50 @@ class Grid:
     def from_json(self, json_str):
         json_safe_dict = json.loads(json_str)
         self.grid = {tuple(map(int, k.strip('()').split(','))): v for k, v in json_safe_dict.items()}
+
+def main():
+    start_time = time.time()
+
+    # Create a large grid with size 100
+    grid_size = 1000
+    grid = Grid(grid_size)
+
+    # Set some properties for a few hexes
+    for i in range(grid_size):
+        for j in range(grid_size):
+            for k in range(grid_size):
+                if i + j + k == 0:
+                    grid.set_properties({'x': i, 'y': j, 'z': k}, {"value": i * j * k})
+
+    grid.set_properties({'x': 0, 'y': 0, 'z': 0}, {
+        "terrain": "grassland",
+        "elevation": 100,
+    })
+
+    # Perform some operations to test performance
+    center = {'x': 0, 'y': 0, 'z': 0}
+    range_size = 50
+
+    hexes_in_range = grid.hexes_in_range(center, range_size, False)
+    print(f"Number of hexes in range: {len(hexes_in_range)}")
+
+    neighbors = grid.neighbors(center)
+    print(f"Number of neighbors: {len(neighbors)}")
+
+    relative_coords = grid.get_relative_coordinates(center, 2, 5)
+    print(f"Relative coordinates: {relative_coords}")
+
+    # Write the grid to a JSON file
+    json_data = grid.to_json()
+    with open("hex_grid.json", "w") as f:
+        f.write(json_data)
+
+    # Draw the grid to a PNG file. Faster than Go's image drawing.
+    # grid.draw_grid(10, "hex_grid.png")
+
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    print(f"Elapsed time: {elapsed_time:.2f} seconds")
+
+if __name__ == "__main__":
+    main()

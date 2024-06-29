@@ -9,37 +9,17 @@ import (
 	"image/png"
 	"math"
 	"os"
+	"runtime/pprof"
 	"time"
 )
 
 type Coordinate struct {
-	X, Y, Z int `json:"x,y,z"`
+	X, Y, Z int
 }
 
 type Grid struct {
 	Size int
 	Grid map[Coordinate]map[string]interface{}
-}
-
-func lerp(a, b, t float64) float64 {
-	return a + (b-a)*t
-}
-
-func movementTable(orientation string) (map[int][3]int, error) {
-	var directions [6][3]int
-	switch orientation {
-	case "flat":
-		directions = [6][3]int{{1, -1, 0}, {0, -1, 1}, {-1, 0, 1}, {-1, 1, 0}, {0, 1, -1}, {1, 0, -1}}
-	case "pointy":
-		directions = [6][3]int{{1, 0, -1}, {1, -1, 0}, {0, -1, 1}, {-1, 0, 1}, {-1, 1, 0}, {0, 1, -1}}
-	default:
-		return nil, fmt.Errorf("invalid orientation. Choose either 'flat' or 'pointy'")
-	}
-	movementTable := make(map[int][3]int)
-	for i, direction := range directions {
-		movementTable[i] = direction
-	}
-	return movementTable, nil
 }
 
 func NewGrid(size int) *Grid {
@@ -61,8 +41,14 @@ func (g *Grid) createHexGrid() {
 	}
 }
 
-func (g *Grid) GetHexagon(coords Coordinate) map[string]interface{} {
-	return g.Grid[coords]
+func (g *Grid) SetProperties(coordinates Coordinate, prop map[string]interface{}) bool {
+	if hexagon, ok := g.Grid[coordinates]; ok {
+		for k, v := range prop {
+			hexagon[k] = v
+		}
+		return true
+	}
+	return false
 }
 
 func (g *Grid) HexesInRange(centerCoords Coordinate, N int, excludeCenter bool) []Coordinate {
@@ -84,34 +70,10 @@ func (g *Grid) Neighbors(coords Coordinate) []Coordinate {
 	return g.HexesInRange(coords, 1, true)
 }
 
-func (g *Grid) GetProperties(coordinates Coordinate, prop []string) map[string]interface{} {
-	if hexagon, ok := g.Grid[coordinates]; ok {
-		if prop != nil {
-			result := make(map[string]interface{})
-			for _, p := range prop {
-				result[p] = hexagon[p]
-			}
-			return result
-		}
-		return hexagon
-	}
-	return nil
-}
-
-func (g *Grid) SetProperties(coordinates Coordinate, prop map[string]interface{}) bool {
-	if hexagon, ok := g.Grid[coordinates]; ok {
-		for k, v := range prop {
-			hexagon[k] = v
-		}
-		return true
-	}
-	return false
-}
-
 func (g *Grid) GetRelativeCoordinates(startCoords Coordinate, direction, N int) (Coordinate, error) {
-	directions, err := movementTable("flat")
-	if err != nil {
-		return Coordinate{}, err
+	directions := map[int][3]int{
+		0: {1, -1, 0}, 1: {0, -1, 1}, 2: {-1, 0, 1},
+		3: {-1, 1, 0}, 4: {0, 1, -1}, 5: {1, 0, -1},
 	}
 	dq, dr, ds := directions[direction][0], directions[direction][1], directions[direction][2]
 	newCoords := Coordinate{
@@ -122,112 +84,21 @@ func (g *Grid) GetRelativeCoordinates(startCoords Coordinate, direction, N int) 
 	return newCoords, nil
 }
 
-func (g *Grid) CubeDistance(startCoords, endCoords Coordinate) int {
-	return maxInt(abs(startCoords.X-endCoords.X), abs(startCoords.Y-endCoords.Y), abs(startCoords.Z-endCoords.Z))
-}
-
-func (g *Grid) CubeRound(cube map[string]float64) Coordinate {
-	rx := round(cube["x"])
-	ry := round(cube["y"])
-	rz := round(cube["z"])
-
-	xDiff := math.Abs(float64(rx) - cube["x"])
-	yDiff := math.Abs(float64(ry) - cube["y"])
-	zDiff := math.Abs(float64(rz) - cube["z"])
-
-	if xDiff > yDiff && xDiff > zDiff {
-		rx = -ry - rz
-	} else if yDiff > zDiff {
-		ry = -rx - rz
-	} else {
-		rz = -rx - ry
+func (g *Grid) ToJSON() (string, error) {
+	jsonSafeDict := make(map[string]map[string]interface{})
+	for k, v := range g.Grid {
+		jsonSafeDict[fmt.Sprintf("(%d,%d,%d)", k.X, k.Y, k.Z)] = v
 	}
-	return Coordinate{rx, ry, rz}
-}
-
-func (g *Grid) HexesInPath(startCoords, endCoords Coordinate) []Coordinate {
-	N := g.CubeDistance(startCoords, endCoords)
-	results := []Coordinate{}
-	for i := 0; i <= N; i++ {
-		t := 1.0 / float64(N) * float64(i)
-		cube := map[string]float64{
-			"x": lerp(float64(startCoords.X), float64(endCoords.X), t),
-			"y": lerp(float64(startCoords.Y), float64(endCoords.Y), t),
-			"z": lerp(float64(startCoords.Z), float64(endCoords.Z), t),
-		}
-		results = append(results, g.CubeRound(cube))
+	jsonData, err := json.Marshal(jsonSafeDict)
+	if err != nil {
+		return "", err
 	}
-	return results
-}
-
-func (g *Grid) HexRangeIntersection(centerA Coordinate, rangeA int, centerB Coordinate, rangeB int) []Coordinate {
-	aList := g.HexesInRange(centerA, rangeA, false)
-	bList := g.HexesInRange(centerB, rangeB, false)
-	intersection := []Coordinate{}
-	for _, a := range aList {
-		for _, b := range bList {
-			if a == b {
-				intersection = append(intersection, a)
-			}
-		}
-	}
-	return intersection
-}
-
-func (g *Grid) FloodFill(centerCoords Coordinate, N int) [][]Coordinate {
-	fringes := make([][]Coordinate, N+1)
-	fringes[0] = append(fringes[0], centerCoords)
-
-	for k := 1; k <= N; k++ {
-		for _, hexCoords := range fringes[k-1] {
-			for direction := 0; direction < 6; direction++ {
-				neighborCoords, err := g.GetRelativeCoordinates(hexCoords, direction, 1)
-				if err != nil {
-					continue
-				}
-				alreadyInFringe := false
-				for _, fringe := range fringes {
-					for _, coords := range fringe {
-						if neighborCoords == coords {
-							alreadyInFringe = true
-							break
-						}
-					}
-					if alreadyInFringe {
-						break
-					}
-				}
-				if alreadyInFringe {
-					continue
-				}
-				if hexProperties := g.GetProperties(neighborCoords, nil); hexProperties != nil {
-					if val, ok := hexProperties["obstacle"]; ok && val.(bool) {
-						continue
-					}
-				}
-				fringes[k] = append(fringes[k], neighborCoords)
-			}
-		}
-	}
-	return fringes
-}
-
-func (g *Grid) UpdatePropertiesFromList(hexList []map[string]interface{}) {
-	for _, hexObj := range hexList {
-		if coords, ok := hexObj["coords"].(map[string]interface{}); ok {
-			x := int(coords["x"].(float64))
-			y := int(coords["y"].(float64))
-			z := int(coords["z"].(float64))
-			props := hexObj["props"].(map[string]interface{})
-			g.SetProperties(Coordinate{x, y, z}, props)
-		} else {
-			panic("Hexagon object must contain 'coords' and 'props' keys.")
-		}
-	}
+	return string(jsonData), nil
 }
 
 func (g *Grid) DrawGrid(size int, outputFile string) {
 	minX, minY, maxX, maxY := math.MaxFloat64, math.MaxFloat64, -math.MaxFloat64, -math.MaxFloat64
+	// First pass: determine image boundaries
 	for coords := range g.Grid {
 		pixelCoords := g.HexToPixel(coords, float64(size), "flat")
 		minX = math.Min(minX, float64(pixelCoords.X))
@@ -237,22 +108,32 @@ func (g *Grid) DrawGrid(size int, outputFile string) {
 	}
 
 	margin := float64(size)
-	imgSize := image.Rect(0, 0, int(maxX-minX+2*margin), int(maxY-minY+2*margin))
-	img := image.NewRGBA(imgSize)
+	imgWidth := int(maxX - minX + 2*margin)
+	imgHeight := int(maxY - minY + 2*margin)
+	img := image.NewRGBA(image.Rect(0, 0, imgWidth, imgHeight))
 	draw.Draw(img, img.Bounds(), &image.Uniform{color.RGBA{0, 0, 0, 255}}, image.Point{}, draw.Src)
 
+	// Precompute hex corners
+	hexCorners := make([][]image.Point, len(g.Grid))
+	i := 0
 	for coords := range g.Grid {
 		pixelCoords := g.HexToPixel(coords, float64(size), "flat")
 		pixelCoords.X = int(float64(pixelCoords.X) - minX + margin)
 		pixelCoords.Y = int(float64(pixelCoords.Y) - minY + margin)
 
-		corners := []image.Point{}
-		for i := 0; i < 6; i++ {
-			corner := g.FlatHexCorner(pixelCoords, float64(size), i)
-			corners = append(corners, image.Point{int(corner.X), int(corner.Y)})
+		corners := make([]image.Point, 6)
+		for j := 0; j < 6; j++ {
+			corner := g.FlatHexCorner(pixelCoords, float64(size), j)
+			corners[j] = image.Point{int(corner.X), int(corner.Y)}
 		}
-		for i := 0; i < len(corners)-1; i++ {
-			drawLine(img, corners[i], corners[i+1], color.White)
+		hexCorners[i] = corners
+		i++
+	}
+
+	// Draw hexagons
+	for _, corners := range hexCorners {
+		for j := 0; j < len(corners)-1; j++ {
+			drawLine(img, corners[j], corners[j+1], color.White)
 		}
 		drawLine(img, corners[len(corners)-1], corners[0], color.White)
 	}
@@ -321,39 +202,6 @@ func (g *Grid) FlatHexCorner(center image.Point, size float64, i int) image.Poin
 	}
 }
 
-func (g *Grid) ToJSON() (string, error) {
-	jsonSafeDict := make(map[string]map[string]interface{})
-	for k, v := range g.Grid {
-		jsonSafeDict[fmt.Sprintf("(%d,%d,%d)", k.X, k.Y, k.Z)] = v
-	}
-	jsonData, err := json.Marshal(jsonSafeDict)
-	if err != nil {
-		return "", err
-	}
-	return string(jsonData), nil
-}
-
-func (g *Grid) FromJSON(jsonStr string) error {
-	jsonSafeDict := make(map[string]map[string]interface{})
-	if err := json.Unmarshal([]byte(jsonStr), &jsonSafeDict); err != nil {
-		return err
-	}
-	g.Grid = make(map[Coordinate]map[string]interface{})
-	for k, v := range jsonSafeDict {
-		var x, y, z int
-		fmt.Sscanf(k, "(%d,%d,%d)", &x, &y, &z)
-		g.Grid[Coordinate{x, y, z}] = v
-	}
-	return nil
-}
-
-func round(value float64) int {
-	if value < 0 {
-		return int(value - 0.5)
-	}
-	return int(value + 0.5)
-}
-
 func max(a, b int) int {
 	if a > b {
 		return a
@@ -375,33 +223,35 @@ func abs(a int) int {
 	return a
 }
 
-func maxInt(a, b, c int) int {
-	if a > b && a > c {
-		return a
-	}
-	if b > c {
-		return b
-	}
-	return c
-}
-
 func main() {
+	// Profiling start
+	f, err := os.Create("cpu.prof")
+	if err != nil {
+		panic(err)
+	}
+	pprof.StartCPUProfile(f)
+	defer pprof.StopCPUProfile()
+
 	startTime := time.Now()
 
-	// Create a large grid with size 1000
-	gridSize := 100
+	// Create a large grid with size 116 (6 miles hexes, size of U.S.)
+	gridSize := 116
 	grid := NewGrid(gridSize)
 
 	// Set some properties for a few hexes
-	for i := 0; i < gridSize; i++ {
-		for j := 0; j < gridSize; j++ {
-			for k := 0; k < gridSize; k++ {
-				if i+j+k == 0 {
-					grid.SetProperties(Coordinate{i, j, k}, map[string]interface{}{"value": i * j * k})
-				}
+	for i := -gridSize; i <= gridSize; i++ {
+		for j := -gridSize; j <= gridSize; j++ {
+			k := -i - j
+			if i+j+k == 0 {
+				grid.SetProperties(Coordinate{i, j, k}, map[string]interface{}{"value": i * j * k})
 			}
 		}
 	}
+
+	grid.SetProperties(Coordinate{X: 0, Y: 0, Z: 0}, map[string]interface{}{
+		"terrain":   "grassland",
+		"elevation": 100,
+	})
 
 	// Perform some operations to test performance
 	center := Coordinate{0, 0, 0}
@@ -429,8 +279,8 @@ func main() {
 		panic(err)
 	}
 
-	// Draw the grid to a PNG file
-	grid.DrawGrid(10, "hex_grid.png")
+	// Draw the grid to a PNG file. This is expensive and slow
+	// grid.DrawGrid(10, "hex_grid.png")
 
 	endTime := time.Now()
 	elapsedTime := endTime.Sub(startTime)

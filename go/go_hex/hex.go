@@ -253,14 +253,17 @@ func main() {
 		"elevation": 100,
 	})
 
+	// get a list of all neighbors of a hex (-1,-78,79)
+	neighbors := grid.Neighbors(Coordinate{-1, -78, 79})
+	fmt.Printf("Neighbors of (-1,-78,79): %+v\n", neighbors)
+
 	// Perform some operations to test performance
 	center := Coordinate{0, 0, 0}
-	rangeSize := 50
+	rangeSize := 1
 
 	hexesInRange := grid.HexesInRange(center, rangeSize, false)
 	fmt.Printf("Number of hexes in range: %d\n", len(hexesInRange))
 
-	neighbors := grid.Neighbors(center)
 	fmt.Printf("Number of neighbors: %d\n", len(neighbors))
 
 	relativeCoords, err := grid.GetRelativeCoordinates(center, 2, 5)

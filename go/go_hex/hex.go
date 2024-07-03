@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-	"runtime/pprof"
 	"time"
 
 	"github.com/aquilax/go-perlin"
@@ -26,6 +25,39 @@ func NewGrid(size int) *Grid {
 	}
 	g.createHexGrid()
 	return g
+}
+
+func LoadGridFromJSON(filename string) (*Grid, error) {
+	data, err := os.ReadFile(filename)
+	if err != nil {
+		return nil, err
+	}
+
+	jsonSafeDict := make(map[string]map[string]interface{})
+	err = json.Unmarshal(data, &jsonSafeDict)
+	if err != nil {
+		return nil, err
+	}
+
+	size := 0
+	grid := make(map[Coordinate]map[string]interface{})
+	for k, v := range jsonSafeDict {
+		var x, y, z int
+		fmt.Sscanf(k, "(%d,%d,%d)", &x, &y, &z)
+		coords := Coordinate{x, y, z}
+		grid[coords] = v
+		if abs(x) > size {
+			size = abs(x)
+		}
+		if abs(y) > size {
+			size = abs(y)
+		}
+		if abs(z) > size {
+			size = abs(z)
+		}
+	}
+
+	return &Grid{Size: size, Grid: grid}, nil
 }
 
 func (g *Grid) createHexGrid() {
@@ -74,6 +106,13 @@ func min(a, b int) int {
 	return b
 }
 
+func abs(a int) int {
+	if a < 0 {
+		return -a
+	}
+	return a
+}
+
 func (g *Grid) Neighbors(coords Coordinate) []Coordinate {
 	return g.HexesInRange(coords, 1, true)
 }
@@ -116,7 +155,7 @@ func generateTerrain(grid *Grid, scale float64, seed int64) {
 	for coords := range grid.Grid {
 		px := float64(coords.X) * scale
 		py := float64(coords.Y) * scale
-		elevation := p.Noise2D(px, py)
+		elevation := (p.Noise2D(px, py) + 1) / 2 // Normalize to [0, 1]
 
 		terrain := determineTerrain(elevation)
 		grid.SetProperties(coords, map[string]interface{}{
@@ -131,26 +170,17 @@ func determineTerrain(elevation float64) string {
 		threshold float64
 		terrain   string
 	}{
-		{-0.4, "deep_ocean"},
-		{-0.2, "ocean"},
-		{0.0, "beach"},
-		{0.05, "plains"},
-		{0.1, "grassland"},
-		{0.15, "forest"},
-		{0.2, "savanna"},
-		{0.25, "shrubland"},
-		{0.3, "hills"},
-		{0.35, "mountain_foot"},
-		{0.4, "mountain"},
-		{0.45, "tundra"},
-		{0.5, "snowy_mountain"},
-		{0.55, "glacier"},
-		{0.6, "volcano"},
-		{0.65, "desert"},
-		{0.7, "swamp"},
-		{0.75, "rainforest"},
-		{0.8, "mangrove"},
-		{0.85, "coral_reef"},
+		{0.0, "deep_ocean"},
+		{0.1, "ocean"},
+		{0.2, "beach"},
+		{0.3, "plains"},
+		{0.4, "grassland"},
+		{0.5, "forest"},
+		{0.6, "shrubland"},
+		{0.7, "hills"},
+		{0.8, "mountain_foot"},
+		{0.9, "mountain"},
+		{1.0, "tundra"},
 	}
 
 	for _, t := range terrainTypes {
@@ -162,50 +192,39 @@ func determineTerrain(elevation float64) string {
 }
 
 func main() {
-	// Profiling start
-	f, err := os.Create("cpu.prof")
+	const gridSize = 1000
+	const scale = 0.1
+
+	var grid *Grid
+	var err error
+
+	// Try to load the grid from hex_grid.json
+	grid, err = LoadGridFromJSON("hex_grid.json")
 	if err != nil {
-		panic(err)
-	}
-	pprof.StartCPUProfile(f)
-	defer pprof.StopCPUProfile()
+		// If loading fails, generate a new grid
+		fmt.Println("Failed to load grid, generating a new one...")
+		grid = NewGrid(gridSize)
 
-	startTime := time.Now()
+		// Generate terrain for the grid
+		seed := time.Now().UnixNano()
+		generateTerrain(grid, scale, seed)
 
-	gridSize := 116
-	grid := NewGrid(gridSize)
-
-	for i := -gridSize; i <= gridSize; i++ {
-		for j := -gridSize; j <= gridSize; j++ {
-			k := -i - j
-			if i+j+k == 0 {
-				grid.SetProperties(Coordinate{i, j, k}, map[string]interface{}{"value": i * j * k})
-			}
+		// Save the new grid to a JSON file
+		jsonData, err := grid.ToJSON()
+		if err != nil {
+			panic(err)
 		}
+		err = os.WriteFile("hex_grid.json", []byte(jsonData), 0644)
+		if err != nil {
+			panic(err)
+		}
+		fmt.Println("Generated and saved new grid to hex_grid.json")
 	}
 
-	// Generate terrain for the grid
-	scale := 0.1 // Adjust scale for different detail levels
-	seed := time.Now().UnixNano()
-	generateTerrain(grid, scale, seed)
-
-	// Get neighbors of a specific hex
+	// Get neighbors of a specific hex in the loaded or newly generated grid
 	neighbors := grid.Neighbors(Coordinate{X: 0, Y: 0, Z: 0})
 	for _, neighbor := range neighbors {
 		fmt.Printf("Neighbor: %+v\n", neighbor)
 		fmt.Printf("Properties: Terrain=%s, Elevation=%.2f\n", grid.Grid[neighbor]["terrain"], grid.Grid[neighbor]["elevation"])
 	}
-
-	jsonData, err := grid.ToJSON()
-	if err != nil {
-		panic(err)
-	}
-	err = os.WriteFile("hex_grid.json", []byte(jsonData), 0644)
-	if err != nil {
-		panic(err)
-	}
-
-	endTime := time.Now()
-	elapsedTime := endTime.Sub(startTime)
-	fmt.Printf("Elapsed time: %s\n", elapsedTime)
 }

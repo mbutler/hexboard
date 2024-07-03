@@ -10,15 +10,14 @@ import (
 )
 
 var rarityLevels = map[string]string{
-	"Frequent": "0",
-	"Ordinary": "00",
-	"Common":   "000",
-	// Uncomment the below lines for higher rarity levels if you wish to simulate them
-	"Uncommon": "0000",
-	"Rare":     "00000",
-	"Epic":     "000000",
-	// "Legendary": "0000000",
-	// "Mythic":    "00000000",
+	"Frequent":  "0",
+	"Ordinary":  "00",
+	"Common":    "000",
+	"Uncommon":  "0000",
+	"Rare":      "00000",
+	"Epic":      "000000",
+	"Legendary": "0000000",
+	"Mythic":    "00000000",
 }
 
 func generateRandomString(rng *rand.Rand, length int) string {
@@ -44,39 +43,35 @@ func checkRarity(hash string) string {
 	return "None"
 }
 
-func findRareItemWithTokens(targetRarity string, tokenLimit int) (int, string) {
+func findRareItemWithTokens(targetRarity string) (int, float64, string, string) {
 	rng := rand.New(rand.NewSource(time.Now().UnixNano()))
 	attempts := 0
+	startTime := time.Now()
 
-	for attempts < tokenLimit {
+	for {
 		randomStr := generateRandomString(rng, 10)
 		hashStr := hashString(randomStr)
 		rarity := checkRarity(hashStr)
 		attempts++
 
 		if rarity == targetRarity {
-			return attempts, hashStr
+			elapsedTime := time.Since(startTime).Seconds()
+			return attempts, elapsedTime, hashStr, randomStr
 		}
 	}
-
-	return attempts, ""
 }
 
 func main() {
-	rarityLevelsToTest := []string{"Frequent", "Ordinary", "Common", "Uncommon", "Rare", "Epic"}
-	tokenLimit := 10000000
-	runs := 30
+	rarityLevelsToTest := []string{"Frequent", "Ordinary", "Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"}
 
 	for _, rarity := range rarityLevelsToTest {
-		totalAttempts := 0
-
-		fmt.Printf("Testing rarity level: %s\n", rarity)
-		for i := 0; i < runs; i++ {
-			attempts, _ := findRareItemWithTokens(rarity, tokenLimit)
-			totalAttempts += attempts
-		}
-
-		averageAttempts := totalAttempts / runs
-		fmt.Printf("Average attempts to find %s item: %d\n", rarity, averageAttempts)
+		fmt.Printf("Finding item of rarity level: %s\n", rarity)
+		attempts, elapsedTime, hashStr, randomStr := findRareItemWithTokens(rarity)
+		fmt.Printf("Found %s item!\n", rarity)
+		fmt.Printf("Random String: %s\n", randomStr)
+		fmt.Printf("Hash: %s\n", hashStr)
+		fmt.Printf("Attempts: %d\n", attempts)
+		fmt.Printf("Time: %.2f seconds\n", elapsedTime)
+		fmt.Println()
 	}
 }

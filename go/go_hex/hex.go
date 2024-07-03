@@ -192,7 +192,7 @@ func determineTerrain(elevation float64) string {
 }
 
 func main() {
-	const gridSize = 1000
+	const gridSize = 10
 	const scale = 0.1
 
 	var grid *Grid

@@ -1,10 +1,15 @@
-# skeleton
-A barebones starter project for modern javascript development
+# js
 
-babel + webpack + mocha + chai + documentationjs
+To install dependencies:
 
-`npm start` - compile source and run dev server
+```bash
+bun install
+```
 
-`npm test` - run unit tests
+To run:
 
-`npm run-script document` - generate docs for all comments in valid JSDoc format
+```bash
+bun run index.js
+```
+
+This project was created using `bun init` in bun v1.1.15. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

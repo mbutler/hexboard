@@ -77,15 +77,15 @@ class SettlementGenerator {
     for (const rule of this.settlementRules) {
       if (roll >= rule.range[0] && roll <= rule.range[1]) {
         if (rule.type === 'Ruins') {
-          return { type: this.getReRolledSettlementType(), population: null }
+          return { type: this.getReRolledSettlementType(), population: 0 }
         } else if (rule.type === 'Castle') {
-          return { type: this.getCastleDetails(), population: null }
+          return { type: this.getCastleDetails(), population: 0 }
         }
-        const population = rule.population ? this.randomInRange(rule.population) : null
+        const population = rule.population ? this.randomInRange(rule.population) : 0
         return { type: rule.type, population }
       }
     }
-    return { type: 'Uninhabited', population: null }
+    return { type: 'Uninhabited', population: 0 }
   }
 
   getReRolledSettlementType() {

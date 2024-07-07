@@ -1,548 +1,7568 @@
 {
-    "-5,0,5": {
-        "terrain": "rough",
-        "settlement": "Uninhabited",
-        "population": null,
+    "-20,0,20": {
+        "terrain": "plain",
+        "settlement": "Town",
+        "population": 2104,
         "notes": null
     },
-    "-5,1,4": {
-        "terrain": "forest",
+    "-20,1,19": {
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
-    "-5,2,3": {
-        "terrain": "forest",
-        "settlement": "Village",
-        "population": 880,
+    "-20,2,18": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
-    "-5,3,2": {
-        "terrain": "forest",
+    "-20,3,17": {
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
-    "-5,4,1": {
-        "terrain": "forest",
+    "-20,4,16": {
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": "pond"
-    },
-    "-5,5,0": {
-        "terrain": "forest",
-        "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
-    "-4,-1,5": {
+    "-20,5,15": {
         "terrain": "scrub",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
-    "-4,0,4": {
-        "terrain": "scrub",
+    "-20,6,14": {
+        "terrain": "plain",
+        "settlement": "Castle (Small shell keep, Totally deserted, Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "-20,7,13": {
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "-20,8,12": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": "pond"
     },
-    "-4,1,3": {
+    "-20,9,11": {
         "terrain": "desert",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
-    "-4,2,2": {
+    "-20,10,10": {
         "terrain": "desert",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": "pond"
     },
-    "-4,3,1": {
-        "terrain": "rough",
+    "-20,11,9": {
+        "terrain": "desert",
+        "settlement": "City",
+        "population": 31952,
+        "notes": "depression"
+    },
+    "-20,12,8": {
+        "terrain": "hills",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
-    "-4,4,0": {
+    "-20,13,7": {
         "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-20,14,6": {
+        "terrain": "scrub",
+        "settlement": "Town",
+        "population": 1936,
+        "notes": null
+    },
+    "-20,15,5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-20,16,4": {
+        "terrain": "forest",
+        "settlement": "Castle (Medium walled castle with keep, Thief, Level: 11)",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "-20,17,3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-20,18,2": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-20,19,1": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-20,20,0": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,-1,20": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,0,19": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,1,18": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,2,17": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,3,16": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,4,15": {
+        "terrain": "mountains",
+        "settlement": "Castle (Tower, Illusionist, Level: 11)",
+        "population": 0,
+        "notes": null
+    },
+    "-19,5,14": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,6,13": {
+        "terrain": "rough",
+        "settlement": "Castle (Tower, Totally deserted, Level: N/A)",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-19,7,12": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,8,11": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-19,9,10": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,10,9": {
+        "terrain": "scrub",
+        "settlement": "Thorp",
+        "population": 49,
+        "notes": null
+    },
+    "-19,11,8": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,12,7": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,13,6": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,14,5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,15,4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,16,3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,17,2": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-19,18,1": {
+        "terrain": "forest",
         "settlement": "Thorp",
         "population": 57,
         "notes": null
     },
-    "-4,5,-1": {
+    "-19,19,0": {
+        "terrain": "forest",
+        "settlement": "Ruined Shrine",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-19,20,-1": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,-2,20": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,-1,19": {
         "terrain": "scrub",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "-18,0,18": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,1,17": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,2,16": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,3,15": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,4,14": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,5,13": {
+        "terrain": "scrub",
+        "settlement": "City",
+        "population": 21403,
+        "notes": null
+    },
+    "-18,6,12": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,7,11": {
+        "terrain": "plain",
+        "settlement": "Village",
+        "population": 787,
+        "notes": null
+    },
+    "-18,8,10": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,9,9": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,10,8": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,11,7": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,12,6": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,13,5": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,14,4": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,15,3": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,16,2": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,17,1": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,18,0": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-18,19,-1": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-18,20,-2": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,-3,20": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,-2,19": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,-1,18": {
+        "terrain": "scrub",
+        "settlement": "Thorp",
+        "population": 65,
+        "notes": null
+    },
+    "-17,0,17": {
+        "terrain": "desert",
+        "settlement": "Hamlet",
+        "population": 286,
+        "notes": null
+    },
+    "-17,1,16": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,2,15": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,3,14": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-17,4,13": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "hilly forest"
+    },
+    "-17,5,12": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,6,11": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,7,10": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,8,9": {
+        "terrain": "forest",
+        "settlement": "Town",
+        "population": 5217,
+        "notes": null
+    },
+    "-17,9,8": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,10,7": {
+        "terrain": "desert",
+        "settlement": "Hamlet",
+        "population": 289,
+        "notes": null
+    },
+    "-17,11,6": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,12,5": {
+        "terrain": "forest",
+        "settlement": "Hamlet",
+        "population": 215,
+        "notes": null
+    },
+    "-17,13,4": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,14,3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,15,2": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-17,16,1": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,17,0": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,18,-1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,19,-2": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-17,20,-3": {
+        "terrain": "marsh",
+        "settlement": "Thorp",
+        "population": 76,
+        "notes": null
+    },
+    "-16,-4,20": {
+        "terrain": "forest",
+        "settlement": "Hamlet",
+        "population": 342,
+        "notes": null
+    },
+    "-16,-3,19": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,-2,18": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,-1,17": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,0,16": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,1,15": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,2,14": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,3,13": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,4,12": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,5,11": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,6,10": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,7,9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,8,8": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,9,7": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,10,6": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,11,5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,12,4": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,13,3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,14,2": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,15,1": {
+        "terrain": "forest",
+        "settlement": "Thorp",
+        "population": 45,
+        "notes": null
+    },
+    "-16,16,0": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,17,-1": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,18,-2": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,19,-3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-16,20,-4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,-5,20": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,-4,19": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "-15,-3,18": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,-2,17": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,-1,16": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,0,15": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "-15,1,14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,2,13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,3,12": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,4,11": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,5,10": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,6,9": {
+        "terrain": "scrub",
+        "settlement": "Town",
+        "population": 2914,
+        "notes": null
+    },
+    "-15,7,8": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,8,7": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,9,6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,10,5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-15,11,4": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,12,3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "-15,13,2": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,14,1": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,15,0": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,16,-1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,17,-2": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,18,-3": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,19,-4": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-15,20,-5": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,-6,20": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,-5,19": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,-4,18": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,-3,17": {
+        "terrain": "scrub",
+        "settlement": "Single Dwelling",
+        "population": 10,
+        "notes": null
+    },
+    "-14,-2,16": {
+        "terrain": "rough",
+        "settlement": "Castle (Tower, Totally deserted, Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "-14,-1,15": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,0,14": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,1,13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "-14,2,12": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,3,11": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,4,10": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,5,9": {
+        "terrain": "mountains",
+        "settlement": "Ruined Shrine",
+        "population": 0,
+        "notes": null
+    },
+    "-14,6,8": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,7,7": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,8,6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,9,5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,10,4": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,11,3": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,12,2": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,13,1": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,14,0": {
+        "terrain": "forest",
+        "settlement": "Single Dwelling",
+        "population": 12,
+        "notes": null
+    },
+    "-14,15,-1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,16,-2": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,17,-3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "-14,18,-4": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,19,-5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-14,20,-6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,-7,20": {
+        "terrain": "mountains",
+        "settlement": "Hamlet",
+        "population": 399,
+        "notes": null
+    },
+    "-13,-6,19": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,-5,18": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,-4,17": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,-3,16": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,-2,15": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,-1,14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,0,13": {
+        "terrain": "scrub",
+        "settlement": "City",
+        "population": 54867,
+        "notes": null
+    },
+    "-13,1,12": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,2,11": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,3,10": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,4,9": {
+        "terrain": "mountains",
+        "settlement": "Village",
+        "population": 654,
+        "notes": null
+    },
+    "-13,5,8": {
+        "terrain": "desert",
+        "settlement": "Thorp",
+        "population": 27,
+        "notes": null
+    },
+    "-13,6,7": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-13,7,6": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,8,5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,9,4": {
+        "terrain": "mountains",
+        "settlement": "Town",
+        "population": 3418,
+        "notes": null
+    },
+    "-13,10,3": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,11,2": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,12,1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,13,0": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,14,-1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,15,-2": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,16,-3": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,17,-4": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,18,-5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,19,-6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-13,20,-7": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,-8,20": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,-7,19": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,-6,18": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,-5,17": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,-4,16": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,-3,15": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,-2,14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,-1,13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,0,12": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,1,11": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-12,2,10": {
+        "terrain": "plain",
+        "settlement": "Thorp",
+        "population": 39,
+        "notes": null
+    },
+    "-12,3,9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,4,8": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,5,7": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "hilly forest"
+    },
+    "-12,6,6": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,7,5": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-12,8,4": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,9,3": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-12,10,2": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,11,1": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,12,0": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,13,-1": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,14,-2": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,15,-3": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,16,-4": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,17,-5": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,18,-6": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,19,-7": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-12,20,-8": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,-9,20": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,-8,19": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,-7,18": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-11,-6,17": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,-5,16": {
+        "terrain": "hills",
+        "settlement": "Hamlet",
+        "population": 156,
+        "notes": "pond"
+    },
+    "-11,-4,15": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,-3,14": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,-2,13": {
+        "terrain": "hills",
+        "settlement": "Ruined City",
+        "population": 0,
+        "notes": null
+    },
+    "-11,-1,12": {
+        "terrain": "rough",
+        "settlement": "Single Dwelling",
+        "population": 10,
+        "notes": null
+    },
+    "-11,0,11": {
+        "terrain": "hills",
+        "settlement": "Single Dwelling",
+        "population": 11,
+        "notes": null
+    },
+    "-11,1,10": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,2,9": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,3,8": {
+        "terrain": "scrub",
+        "settlement": "Castle (Small shell keep, Totally deserted, Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "-11,4,7": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,5,6": {
+        "terrain": "forest",
+        "settlement": "Single Dwelling",
+        "population": 10,
+        "notes": "forested hills"
+    },
+    "-11,6,5": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,7,4": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "mountain pass"
+    },
+    "-11,8,3": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,9,2": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-11,10,1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,11,0": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,12,-1": {
+        "terrain": "scrub",
+        "settlement": "Hamlet",
+        "population": 300,
+        "notes": null
+    },
+    "-11,13,-2": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-11,14,-3": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,15,-4": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,16,-5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,17,-6": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,18,-7": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,19,-8": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-11,20,-9": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,-10,20": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,-9,19": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,-8,18": {
+        "terrain": "forest",
+        "settlement": "Castle (Moat house or friary, Totally deserted, Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "-10,-7,17": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,-6,16": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-10,-5,15": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "-10,-4,14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,-3,13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-10,-2,12": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,-1,11": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,0,10": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-10,1,9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,2,8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-10,3,7": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,4,6": {
+        "terrain": "plain",
+        "settlement": "City",
+        "population": 35022,
+        "notes": null
+    },
+    "-10,5,5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,6,4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,7,3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,8,2": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,9,1": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,10,0": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,11,-1": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-10,12,-2": {
+        "terrain": "plain",
+        "settlement": "Hamlet",
+        "population": 136,
+        "notes": null
+    },
+    "-10,13,-3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,14,-4": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,15,-5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,16,-6": {
+        "terrain": "forest",
+        "settlement": "Single Dwelling",
+        "population": 4,
+        "notes": null
+    },
+    "-10,17,-7": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,18,-8": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,19,-9": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-10,20,-10": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,-11,20": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,-10,19": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,-9,18": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,-8,17": {
+        "terrain": "hills",
+        "settlement": "Thorp",
+        "population": 26,
+        "notes": "pond"
+    },
+    "-9,-7,16": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,-6,15": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,-5,14": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,-4,13": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,-3,12": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,-2,11": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-9,-1,10": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,0,9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,1,8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-9,2,7": {
+        "terrain": "plain",
+        "settlement": "Castle (Tower, Brigands, Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "-9,3,6": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,4,5": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,5,4": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,6,3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,7,2": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,8,1": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,9,0": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,10,-1": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,11,-2": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-9,12,-3": {
+        "terrain": "rough",
+        "settlement": "City",
+        "population": 29968,
+        "notes": null
+    },
+    "-9,13,-4": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-9,14,-5": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,15,-6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,16,-7": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,17,-8": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,18,-9": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-9,19,-10": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "-9,20,-11": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,-12,20": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-8,-11,19": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-8,-10,18": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,-9,17": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-8,-8,16": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,-7,15": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,-6,14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,-5,13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,-4,12": {
+        "terrain": "scrub",
+        "settlement": "Castle (Tower, Fighter, Level: 9)",
+        "population": 0,
+        "notes": null
+    },
+    "-8,-3,11": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,-2,10": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,-1,9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,0,8": {
+        "terrain": "plain",
+        "settlement": "Ruined Shrine",
+        "population": 0,
+        "notes": null
+    },
+    "-8,1,7": {
+        "terrain": "plain",
+        "settlement": "Ruined City",
+        "population": 0,
+        "notes": null
+    },
+    "-8,2,6": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,3,5": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,4,4": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,5,3": {
+        "terrain": "marsh",
+        "settlement": "Single Dwelling",
+        "population": 10,
+        "notes": null
+    },
+    "-8,6,2": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,7,1": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,8,0": {
+        "terrain": "marsh",
+        "settlement": "Ruined Tomb",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-8,9,-1": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,10,-2": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,11,-3": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,12,-4": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,13,-5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,14,-6": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,15,-7": {
+        "terrain": "plain",
+        "settlement": "Single Dwelling",
+        "population": 10,
+        "notes": null
+    },
+    "-8,16,-8": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,17,-9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-8,18,-10": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,19,-11": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-8,20,-12": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,-13,20": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,-12,19": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,-11,18": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,-10,17": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,-9,16": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,-8,15": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,-7,14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-7,-6,13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-7,-5,12": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-7,-4,11": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "-7,-3,10": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,-2,9": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,-1,8": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,0,7": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,1,6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,2,5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,3,4": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,4,3": {
+        "terrain": "forest",
+        "settlement": "Town",
+        "population": 3301,
+        "notes": null
+    },
+    "-7,5,2": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,6,1": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,7,0": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,8,-1": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-7,9,-2": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,10,-3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,11,-4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,12,-5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,13,-6": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-7,14,-7": {
+        "terrain": "forest",
+        "settlement": "Single Dwelling",
+        "population": 5,
+        "notes": null
+    },
+    "-7,15,-8": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,16,-9": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,17,-10": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,18,-11": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,19,-12": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-7,20,-13": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-14,20": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-13,19": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-12,18": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-11,17": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-10,16": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-6,-9,15": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-8,14": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-7,13": {
+        "terrain": "hills",
+        "settlement": "Castle (Medium walled castle with keep, Totally deserted, Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-6,12": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-5,11": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-4,10": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-3,9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-2,8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,-1,7": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,0,6": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,1,5": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "hilly forest"
+    },
+    "-6,2,4": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,3,3": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,4,2": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,5,1": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,6,0": {
+        "terrain": "plain",
+        "settlement": "Castle (Medium walled castle with keep, Deserted (monster therein), Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "-6,7,-1": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,8,-2": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "hilly forest"
+    },
+    "-6,9,-3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,10,-4": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,11,-5": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,12,-6": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,13,-7": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,14,-8": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,15,-9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,16,-10": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,17,-11": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,18,-12": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,19,-13": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-6,20,-14": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-15,20": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-14,19": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-13,18": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-12,17": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-11,16": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-10,15": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-9,14": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-8,13": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "hilly forest"
+    },
+    "-5,-7,12": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-6,11": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-5,10": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-4,9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,-3,8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-5,-2,7": {
+        "terrain": "plain",
+        "settlement": "Thorp",
+        "population": 59,
+        "notes": null
+    },
+    "-5,-1,6": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,0,5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,1,4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,2,3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,3,2": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,4,1": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,5,0": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,6,-1": {
+        "terrain": "plain",
+        "settlement": "City",
+        "population": 43118,
+        "notes": null
+    },
+    "-5,7,-2": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,8,-3": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,9,-4": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,10,-5": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,11,-6": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,12,-7": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,13,-8": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,14,-9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,15,-10": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,16,-11": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-5,17,-12": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,18,-13": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,19,-14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-5,20,-15": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,-16,20": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,-15,19": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-4,-14,18": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,-13,17": {
+        "terrain": "scrub",
+        "settlement": "Single Dwelling",
+        "population": 6,
+        "notes": null
+    },
+    "-4,-12,16": {
+        "terrain": "desert",
+        "settlement": "Single Dwelling",
+        "population": 8,
+        "notes": null
+    },
+    "-4,-11,15": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,-10,14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,-9,13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,-8,12": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,-7,11": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,-6,10": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,-5,9": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,-4,8": {
+        "terrain": "hills",
+        "settlement": "Castle (Moat house or friary, Brigands, Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "-4,-3,7": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-4,-2,6": {
+        "terrain": "hills",
+        "settlement": "Hamlet",
+        "population": 374,
+        "notes": null
+    },
+    "-4,-1,5": {
+        "terrain": "hills",
+        "settlement": "Single Dwelling",
+        "population": 2,
+        "notes": "pond"
+    },
+    "-4,0,4": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,1,3": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,2,2": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,3,1": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,4,0": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,5,-1": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,6,-2": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,7,-3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,8,-4": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-4,9,-5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,10,-6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,11,-7": {
+        "terrain": "mountains",
+        "settlement": "Village",
+        "population": 866,
+        "notes": null
+    },
+    "-4,12,-8": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,13,-9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,14,-10": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,15,-11": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,16,-12": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,17,-13": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,18,-14": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-4,19,-15": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-4,20,-16": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-17,20": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-16,19": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-15,18": {
+        "terrain": "desert",
+        "settlement": "Thorp",
+        "population": 53,
+        "notes": null
+    },
+    "-3,-14,17": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-13,16": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-12,15": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-11,14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-10,13": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-9,12": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-8,11": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-7,10": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-6,9": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-3,-5,8": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-4,7": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,-3,6": {
+        "terrain": "mountains",
+        "settlement": "City",
+        "population": 51173,
         "notes": null
     },
     "-3,-2,5": {
-        "terrain": "plain",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-3,-1,4": {
-        "terrain": "plain",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": null
+        "population": 0,
+        "notes": "pond"
     },
     "-3,0,3": {
-        "terrain": "plain",
+        "terrain": "rough",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-3,1,2": {
-        "terrain": "plain",
+        "terrain": "desert",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-3,2,1": {
-        "terrain": "marsh",
+        "terrain": "desert",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-3,3,0": {
-        "terrain": "scrub",
-        "settlement": "Village",
-        "population": 781,
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
     "-3,4,-1": {
-        "terrain": "scrub",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-3,5,-2": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-3,6,-3": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "mountain pass"
+    },
+    "-3,7,-4": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,8,-5": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,9,-6": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,10,-7": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,11,-8": {
+        "terrain": "desert",
+        "settlement": "Village",
+        "population": 727,
+        "notes": null
+    },
+    "-3,12,-9": {
         "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "-3,13,-10": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,14,-11": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,15,-12": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,16,-13": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,17,-14": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-3,18,-15": {
+        "terrain": "rough",
+        "settlement": "Thorp",
+        "population": 78,
+        "notes": null
+    },
+    "-3,19,-16": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-3,20,-17": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,-18,20": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,-17,19": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,-16,18": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,-15,17": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,-14,16": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-2,-13,15": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,-12,14": {
+        "terrain": "plain",
+        "settlement": "Village",
+        "population": 740,
+        "notes": null
+    },
+    "-2,-11,13": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,-10,12": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,-9,11": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-2,-8,10": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,-7,9": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "-2,-6,8": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,-5,7": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "-2,-4,6": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
     "-2,-3,5": {
-        "terrain": "plain",
+        "terrain": "hills",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-2,-2,4": {
-        "terrain": "plain",
+        "terrain": "marsh",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-2,-1,3": {
-        "terrain": "plain",
-        "settlement": "Uninhabited",
-        "population": null,
+        "terrain": "scrub",
+        "settlement": "Castle (Medium walled castle with keep, Deserted (monster therein), Level: N/A)",
+        "population": 0,
         "notes": null
     },
     "-2,0,2": {
-        "terrain": "rough",
+        "terrain": "scrub",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-2,1,1": {
-        "terrain": "hills",
-        "settlement": "Castle (Large walled castle with keep, Druid, Level: 12)",
-        "population": null,
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
     "-2,2,0": {
-        "terrain": "forest",
+        "terrain": "scrub",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-2,3,-1": {
-        "terrain": "mountains",
-        "settlement": "Uninhabited",
-        "population": null,
+        "terrain": "forest",
+        "settlement": "Hamlet",
+        "population": 128,
         "notes": null
     },
     "-2,4,-2": {
-        "terrain": "mountains",
+        "terrain": "rough",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": "depression"
-    },
-    "-2,5,-3": {
-        "terrain": "mountains",
-        "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
-    "-1,-4,5": {
+    "-2,5,-3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,6,-4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,7,-5": {
         "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "-2,8,-6": {
+        "terrain": "rough",
+        "settlement": "Hamlet",
+        "population": 123,
+        "notes": null
+    },
+    "-2,9,-7": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,10,-8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,11,-9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,12,-10": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,13,-11": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-2,14,-12": {
+        "terrain": "scrub",
+        "settlement": "City",
+        "population": 22847,
+        "notes": null
+    },
+    "-2,15,-13": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,16,-14": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,17,-15": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,18,-16": {
+        "terrain": "marsh",
+        "settlement": "Ruined Shrine",
+        "population": 0,
+        "notes": null
+    },
+    "-2,19,-17": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-2,20,-18": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,-19,20": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,-18,19": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,-17,18": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,-16,17": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,-15,16": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,-14,15": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-1,-13,14": {
+        "terrain": "rough",
+        "settlement": "Village",
+        "population": 710,
+        "notes": null
+    },
+    "-1,-12,13": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,-11,12": {
+        "terrain": "mountains",
+        "settlement": "Thorp",
+        "population": 59,
+        "notes": null
+    },
+    "-1,-10,11": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,-9,10": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-1,-8,9": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,-7,8": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-1,-6,7": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,-5,6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-1,-4,5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
     "-1,-3,4": {
-        "terrain": "mountains",
-        "settlement": "Uninhabited",
-        "population": null,
-        "notes": "pond"
-    },
-    "-1,-2,3": {
         "terrain": "scrub",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "-1,-2,3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
     "-1,-1,2": {
-        "terrain": "scrub",
-        "settlement": "Uninhabited",
-        "population": null,
+        "terrain": "plain",
+        "settlement": "Hamlet",
+        "population": 221,
         "notes": null
     },
     "-1,0,1": {
-        "terrain": "scrub",
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-1,1,0": {
-        "terrain": "marsh",
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": null
+        "population": 0,
+        "notes": "depression"
     },
     "-1,2,-1": {
-        "terrain": "marsh",
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-1,3,-2": {
-        "terrain": "rough",
+        "terrain": "hills",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": null
+        "population": 0,
+        "notes": "hilly forest"
     },
     "-1,4,-3": {
-        "terrain": "mountains",
+        "terrain": "hills",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "-1,5,-4": {
         "terrain": "hills",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": "hilly forest"
-    },
-    "0,-5,5": {
-        "terrain": "hills",
-        "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
-    "0,-4,4": {
+    "-1,6,-5": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,7,-6": {
+        "terrain": "mountains",
+        "settlement": "Castle (Small walled castle with keep, Deserted (monster therein), Level: N/A)",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-1,8,-7": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-1,9,-8": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,10,-9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "-1,11,-10": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,12,-11": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "-1,13,-12": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,14,-13": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,15,-14": {
+        "terrain": "plain",
+        "settlement": "Hamlet",
+        "population": 105,
+        "notes": null
+    },
+    "-1,16,-15": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,17,-16": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,18,-17": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "-1,19,-18": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "mountain pass"
+    },
+    "-1,20,-19": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,-20,20": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,-19,19": {
         "terrain": "hills",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "0,-18,18": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,-17,17": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "hilly forest"
+    },
+    "0,-16,16": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "0,-15,15": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,-14,14": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "0,-13,13": {
+        "terrain": "hills",
+        "settlement": "Single Dwelling",
+        "population": 9,
+        "notes": null
+    },
+    "0,-12,12": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,-11,11": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,-10,10": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,-9,9": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,-8,8": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,-7,7": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,-6,6": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,-5,5": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "0,-4,4": {
+        "terrain": "forest",
+        "settlement": "Single Dwelling",
+        "population": 3,
         "notes": null
     },
     "0,-3,3": {
-        "terrain": "marsh",
+        "terrain": "forest",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": null
+        "population": 0,
+        "notes": "pond"
     },
     "0,-2,2": {
-        "terrain": "scrub",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "0,-1,1": {
-        "terrain": "scrub",
+        "terrain": "hills",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": "depression"
+        "population": 0,
+        "notes": "hilly forest"
     },
     "0,0,0": {
-        "terrain": "rough",
+        "terrain": "hills",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "0,1,-1": {
-        "terrain": "mountains",
-        "settlement": "Uninhabited",
-        "population": null,
+        "terrain": "marsh",
+        "settlement": "Single Dwelling",
+        "population": 5,
         "notes": null
     },
     "0,2,-2": {
-        "terrain": "mountains",
-        "settlement": "Uninhabited",
-        "population": null,
-        "notes": "pond"
+        "terrain": "marsh",
+        "settlement": "Hamlet",
+        "population": 110,
+        "notes": null
     },
     "0,3,-3": {
-        "terrain": "hills",
-        "settlement": "Uninhabited",
-        "population": null,
-        "notes": "hilly forest"
+        "terrain": "scrub",
+        "settlement": "City",
+        "population": 34299,
+        "notes": null
     },
     "0,4,-4": {
-        "terrain": "hills",
+        "terrain": "scrub",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "0,5,-5": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,6,-6": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "hilly forest"
+    },
+    "0,7,-7": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,8,-8": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "0,9,-9": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,10,-10": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "0,11,-11": {
         "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "0,12,-12": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,13,-13": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,14,-14": {
+        "terrain": "hills",
+        "settlement": "Single Dwelling",
+        "population": 2,
+        "notes": null
+    },
+    "0,15,-15": {
+        "terrain": "scrub",
+        "settlement": "Single Dwelling",
+        "population": 10,
+        "notes": null
+    },
+    "0,16,-16": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,17,-17": {
+        "terrain": "plain",
+        "settlement": "Castle (Tower, Totally deserted, Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "0,18,-18": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,19,-19": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "0,20,-20": {
+        "terrain": "plain",
+        "settlement": "Town",
+        "population": 5901,
+        "notes": null
+    },
+    "1,-20,19": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "1,-19,18": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-18,17": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-17,16": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-16,15": {
+        "terrain": "plain",
+        "settlement": "Single Dwelling",
+        "population": 4,
+        "notes": null
+    },
+    "1,-15,14": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-14,13": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-13,12": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-12,11": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-11,10": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-10,9": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-9,8": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-8,7": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-7,6": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,-6,5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
     "1,-5,4": {
-        "terrain": "hills",
+        "terrain": "forest",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": null
+        "population": 0,
+        "notes": "depression"
     },
     "1,-4,3": {
-        "terrain": "hills",
+        "terrain": "forest",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "1,-3,2": {
-        "terrain": "scrub",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "1,-2,1": {
-        "terrain": "scrub",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "1,-1,0": {
-        "terrain": "plain",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "1,0,-1": {
-        "terrain": "forest",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": "forested hills"
+        "population": 0,
+        "notes": null
     },
     "1,1,-2": {
-        "terrain": "forest",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "1,2,-3": {
-        "terrain": "forest",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "1,3,-4": {
-        "terrain": "marsh",
+        "terrain": "hills",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "1,4,-5": {
-        "terrain": "marsh",
+        "terrain": "forest",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "1,5,-6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,6,-7": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,7,-8": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,8,-9": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,9,-10": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,10,-11": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,11,-12": {
+        "terrain": "forest",
+        "settlement": "Thorp",
+        "population": 74,
+        "notes": null
+    },
+    "1,12,-13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,13,-14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,14,-15": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,15,-16": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,16,-17": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,17,-18": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,18,-19": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "1,19,-20": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,-20,18": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,-19,17": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,-18,16": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,-17,15": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,-16,14": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,-15,13": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "2,-14,12": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,-13,11": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,-12,10": {
+        "terrain": "plain",
+        "settlement": "Single Dwelling",
+        "population": 1,
+        "notes": null
+    },
+    "2,-11,9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,-10,8": {
+        "terrain": "plain",
+        "settlement": "Castle (Tower, Deserted (monster therein), Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "2,-9,7": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,-8,6": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,-7,5": {
+        "terrain": "scrub",
+        "settlement": "Thorp",
+        "population": 63,
+        "notes": null
+    },
+    "2,-6,4": {
+        "terrain": "scrub",
+        "settlement": "Hamlet",
+        "population": 192,
         "notes": null
     },
     "2,-5,3": {
-        "terrain": "marsh",
+        "terrain": "scrub",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "2,-4,2": {
-        "terrain": "marsh",
-        "settlement": "Uninhabited",
-        "population": null,
+        "terrain": "plain",
+        "settlement": "Castle (Small walled castle with keep, Brigands, Level: N/A)",
+        "population": 0,
         "notes": null
     },
     "2,-3,1": {
-        "terrain": "marsh",
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": "depression"
+        "population": 0,
+        "notes": null
     },
     "2,-2,0": {
-        "terrain": "mountains",
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "2,-1,-1": {
-        "terrain": "hills",
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "2,0,-2": {
-        "terrain": "marsh",
-        "settlement": "Uninhabited",
-        "population": null,
+        "terrain": "plain",
+        "settlement": "Town",
+        "population": 3042,
         "notes": null
     },
     "2,1,-3": {
-        "terrain": "marsh",
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "2,2,-4": {
         "terrain": "marsh",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": "depression"
+        "population": 0,
+        "notes": null
     },
     "2,3,-5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,4,-6": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,5,-7": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,6,-8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,7,-9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,8,-10": {
+        "terrain": "marsh",
+        "settlement": "Single Dwelling",
+        "population": 11,
+        "notes": null
+    },
+    "2,9,-11": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,10,-12": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,11,-13": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "2,12,-14": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,13,-15": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "2,14,-16": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,15,-17": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,16,-18": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,17,-19": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "2,18,-20": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-20,17": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-19,16": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-18,15": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-17,14": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-16,13": {
         "terrain": "forest",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "3,-15,12": {
+        "terrain": "forest",
+        "settlement": "Single Dwelling",
+        "population": 12,
+        "notes": null
+    },
+    "3,-14,11": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-13,10": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-12,9": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-11,8": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-10,7": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-9,6": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-8,5": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "3,-7,4": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,-6,3": {
+        "terrain": "scrub",
+        "settlement": "Village",
+        "population": 797,
         "notes": null
     },
     "3,-5,2": {
-        "terrain": "plain",
-        "settlement": "Town",
-        "population": 1970,
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
     "3,-4,1": {
-        "terrain": "marsh",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "3,-3,0": {
-        "terrain": "marsh",
+        "terrain": "desert",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "3,-2,-1": {
-        "terrain": "forest",
+        "terrain": "desert",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "3,-1,-2": {
-        "terrain": "forest",
+        "terrain": "desert",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "3,0,-3": {
         "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "3,1,-4": {
-        "terrain": "mountains",
-        "settlement": "Uninhabited",
-        "population": null,
-        "notes": "mountain pass"
-    },
-    "3,2,-5": {
         "terrain": "rough",
-        "settlement": "Castle (Tower, Totally deserted, Level: N/A)",
-        "population": null,
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
-    "4,-5,1": {
+    "3,2,-5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,3,-6": {
+        "terrain": "hills",
+        "settlement": "Village",
+        "population": 615,
+        "notes": null
+    },
+    "3,4,-7": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,5,-8": {
         "terrain": "scrub",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "3,6,-9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,7,-10": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,8,-11": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,9,-12": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,10,-13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,11,-14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "3,12,-15": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,13,-16": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,14,-17": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,15,-18": {
+        "terrain": "scrub",
+        "settlement": "Thorp",
+        "population": 51,
+        "notes": null
+    },
+    "3,16,-19": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "3,17,-20": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,-20,16": {
+        "terrain": "rough",
+        "settlement": "Ruined City",
+        "population": 0,
+        "notes": null
+    },
+    "4,-19,15": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,-18,14": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,-17,13": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,-16,12": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,-15,11": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "4,-14,10": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,-13,9": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,-12,8": {
+        "terrain": "marsh",
+        "settlement": "Castle (Tower, Totally deserted, Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "4,-11,7": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,-10,6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,-9,5": {
+        "terrain": "forest",
+        "settlement": "City",
+        "population": 11709,
+        "notes": null
+    },
+    "4,-8,4": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,-7,3": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,-6,2": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "4,-5,1": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
     "4,-4,0": {
-        "terrain": "hills",
+        "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "4,-3,-1": {
-        "terrain": "hills",
-        "settlement": "Hamlet",
-        "population": 138,
-        "notes": "pond"
-    },
-    "4,-2,-2": {
-        "terrain": "marsh",
-        "settlement": "Castle (Large shell keep, Fighter, Level: 12)",
-        "population": null,
-        "notes": null
-    },
-    "4,-1,-3": {
         "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "4,-2,-2": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "4,-1,-3": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
     "4,0,-4": {
-        "terrain": "mountains",
+        "terrain": "hills",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": null
+        "population": 0,
+        "notes": "pond"
     },
     "4,1,-5": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,2,-6": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,3,-7": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,4,-8": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,5,-9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,6,-10": {
+        "terrain": "plain",
+        "settlement": "Castle (Tower, Illusionist, Level: 10)",
+        "population": 0,
+        "notes": null
+    },
+    "4,7,-11": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,8,-12": {
+        "terrain": "marsh",
+        "settlement": "Village",
+        "population": 786,
+        "notes": null
+    },
+    "4,9,-13": {
+        "terrain": "marsh",
+        "settlement": "Village",
+        "population": 602,
+        "notes": null
+    },
+    "4,10,-14": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,11,-15": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "4,12,-16": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,13,-17": {
         "terrain": "mountains",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "4,14,-18": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,15,-19": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "4,16,-20": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,-20,15": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,-19,14": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "5,-18,13": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,-17,12": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "5,-16,11": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,-15,10": {
+        "terrain": "mountains",
+        "settlement": "Village",
+        "population": 886,
+        "notes": null
+    },
+    "5,-14,9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,-13,8": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,-12,7": {
+        "terrain": "mountains",
+        "settlement": "Town",
+        "population": 6155,
+        "notes": null
+    },
+    "5,-11,6": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,-10,5": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,-9,4": {
+        "terrain": "mountains",
+        "settlement": "Town",
+        "population": 3706,
+        "notes": null
+    },
+    "5,-8,3": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,-7,2": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,-6,1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     },
     "5,-5,0": {
-        "terrain": "mountains",
+        "terrain": "scrub",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "5,-4,-1": {
-        "terrain": "mountains",
-        "settlement": "Castle (Medium walled castle with keep, Fighter, Level: 11)",
-        "population": null,
-        "notes": "pond"
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
     },
     "5,-3,-2": {
-        "terrain": "mountains",
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "5,-2,-3": {
-        "terrain": "mountains",
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
-        "notes": "pond"
+        "population": 0,
+        "notes": null
     },
     "5,-1,-4": {
-        "terrain": "mountains",
+        "terrain": "plain",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
         "notes": null
     },
     "5,0,-5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,1,-6": {
+        "terrain": "rough",
+        "settlement": "Ruined City",
+        "population": 0,
+        "notes": null
+    },
+    "5,2,-7": {
         "terrain": "rough",
         "settlement": "Uninhabited",
-        "population": null,
+        "population": 0,
+        "notes": null
+    },
+    "5,3,-8": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,4,-9": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "5,5,-10": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "5,6,-11": {
+        "terrain": "forest",
+        "settlement": "Village",
+        "population": 737,
+        "notes": "forested hills"
+    },
+    "5,7,-12": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,8,-13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "5,9,-14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,10,-15": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,11,-16": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,12,-17": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,13,-18": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,14,-19": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "5,15,-20": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-20,14": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-19,13": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-18,12": {
+        "terrain": "desert",
+        "settlement": "Village",
+        "population": 786,
+        "notes": null
+    },
+    "6,-17,11": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-16,10": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-15,9": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-14,8": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-13,7": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "6,-12,6": {
+        "terrain": "plain",
+        "settlement": "Village",
+        "population": 859,
+        "notes": null
+    },
+    "6,-11,5": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-10,4": {
+        "terrain": "hills",
+        "settlement": "Single Dwelling",
+        "population": 10,
+        "notes": "hilly forest"
+    },
+    "6,-9,3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-8,2": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-7,1": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-6,0": {
+        "terrain": "hills",
+        "settlement": "Single Dwelling",
+        "population": 2,
+        "notes": null
+    },
+    "6,-5,-1": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-4,-2": {
+        "terrain": "plain",
+        "settlement": "Thorp",
+        "population": 33,
+        "notes": null
+    },
+    "6,-3,-3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-2,-4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,-1,-5": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,0,-6": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,1,-7": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,2,-8": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "6,3,-9": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,4,-10": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,5,-11": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,6,-12": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "6,7,-13": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,8,-14": {
+        "terrain": "marsh",
+        "settlement": "Single Dwelling",
+        "population": 5,
+        "notes": null
+    },
+    "6,9,-15": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,10,-16": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,11,-17": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,12,-18": {
+        "terrain": "plain",
+        "settlement": "Ruined Village",
+        "population": 0,
+        "notes": null
+    },
+    "6,13,-19": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "6,14,-20": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-20,13": {
+        "terrain": "marsh",
+        "settlement": "Castle (Small walled castle with keep, Totally deserted, Level: N/A)",
+        "population": 0,
+        "notes": "depression"
+    },
+    "7,-19,12": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-18,11": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "7,-17,10": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "7,-16,9": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "7,-15,8": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-14,7": {
+        "terrain": "plain",
+        "settlement": "Hamlet",
+        "population": 342,
+        "notes": null
+    },
+    "7,-13,6": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-12,5": {
+        "terrain": "scrub",
+        "settlement": "Village",
+        "population": 876,
+        "notes": null
+    },
+    "7,-11,4": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-10,3": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-9,2": {
+        "terrain": "forest",
+        "settlement": "Single Dwelling",
+        "population": 7,
+        "notes": null
+    },
+    "7,-8,1": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-7,0": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-6,-1": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-5,-2": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-4,-3": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-3,-4": {
+        "terrain": "hills",
+        "settlement": "Hamlet",
+        "population": 310,
+        "notes": null
+    },
+    "7,-2,-5": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,-1,-6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "7,0,-7": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,1,-8": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,2,-9": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,3,-10": {
+        "terrain": "mountains",
+        "settlement": "Ruined Shrine",
+        "population": 0,
+        "notes": null
+    },
+    "7,4,-11": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "7,5,-12": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,6,-13": {
+        "terrain": "scrub",
+        "settlement": "Ruined Shrine",
+        "population": 0,
+        "notes": null
+    },
+    "7,7,-14": {
+        "terrain": "plain",
+        "settlement": "Castle (Moat house or friary, Deserted (monster therein), Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "7,8,-15": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "7,9,-16": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,10,-17": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,11,-18": {
+        "terrain": "desert",
+        "settlement": "Thorp",
+        "population": 50,
+        "notes": null
+    },
+    "7,12,-19": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "7,13,-20": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-20,12": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-19,11": {
+        "terrain": "rough",
+        "settlement": "Hamlet",
+        "population": 275,
+        "notes": null
+    },
+    "8,-18,10": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-17,9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-16,8": {
+        "terrain": "forest",
+        "settlement": "Hamlet",
+        "population": 389,
+        "notes": null
+    },
+    "8,-15,7": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-14,6": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-13,5": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-12,4": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-11,3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-10,2": {
+        "terrain": "hills",
+        "settlement": "Hamlet",
+        "population": 307,
+        "notes": null
+    },
+    "8,-9,1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "hilly forest"
+    },
+    "8,-8,0": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-7,-1": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-6,-2": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-5,-3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-4,-4": {
+        "terrain": "forest",
+        "settlement": "Single Dwelling",
+        "population": 9,
+        "notes": "pond"
+    },
+    "8,-3,-5": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-2,-6": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,-1,-7": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,0,-8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,1,-9": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,2,-10": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,3,-11": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,4,-12": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,5,-13": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "8,6,-14": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,7,-15": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,8,-16": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,9,-17": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,10,-18": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,11,-19": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "8,12,-20": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-20,11": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-19,10": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-18,9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-17,8": {
+        "terrain": "mountains",
+        "settlement": "Castle (Large walled castle with keep, Bandits, Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "9,-16,7": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-15,6": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-14,5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-13,4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-12,3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-11,2": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-10,1": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-9,0": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-8,-1": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-7,-2": {
+        "terrain": "plain",
+        "settlement": "Village",
+        "population": 837,
+        "notes": null
+    },
+    "9,-6,-3": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-5,-4": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-4,-5": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-3,-6": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-2,-7": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,-1,-8": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,0,-9": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,1,-10": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,2,-11": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,3,-12": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "9,4,-13": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,5,-14": {
+        "terrain": "forest",
+        "settlement": "Hamlet",
+        "population": 303,
+        "notes": null
+    },
+    "9,6,-15": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "9,7,-16": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,8,-17": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,9,-18": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,10,-19": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "9,11,-20": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-20,10": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-19,9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-18,8": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-17,7": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-16,6": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-15,5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-14,4": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-13,3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-12,2": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-11,1": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-10,0": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-9,-1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-8,-2": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-7,-3": {
+        "terrain": "hills",
+        "settlement": "City",
+        "population": 57607,
+        "notes": null
+    },
+    "10,-6,-4": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-5,-5": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "10,-4,-6": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-3,-7": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-2,-8": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,-1,-9": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,0,-10": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,1,-11": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,2,-12": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "10,3,-13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,4,-14": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,5,-15": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "10,6,-16": {
+        "terrain": "forest",
+        "settlement": "Castle (Small walled castle with keep, Magic-User, Level: 13)",
+        "population": 0,
+        "notes": null
+    },
+    "10,7,-17": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "mountain pass"
+    },
+    "10,8,-18": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "10,9,-19": {
+        "terrain": "mountains",
+        "settlement": "Single Dwelling",
+        "population": 10,
+        "notes": null
+    },
+    "10,10,-20": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "mountain pass"
+    },
+    "11,-20,9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,-19,8": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,-18,7": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "11,-17,6": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,-16,5": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "11,-15,4": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "11,-14,3": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,-13,2": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,-12,1": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,-11,0": {
+        "terrain": "rough",
+        "settlement": "Village",
+        "population": 620,
+        "notes": null
+    },
+    "11,-10,-1": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,-9,-2": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,-8,-3": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,-7,-4": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,-6,-5": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "11,-5,-6": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,-4,-7": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "11,-3,-8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "11,-2,-9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "11,-1,-10": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,0,-11": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,1,-12": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,2,-13": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,3,-14": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,4,-15": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,5,-16": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "11,6,-17": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,7,-18": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,8,-19": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "11,9,-20": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-20,8": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-19,7": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-18,6": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-17,5": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-16,4": {
+        "terrain": "forest",
+        "settlement": "City",
+        "population": 22125,
+        "notes": null
+    },
+    "12,-15,3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-14,2": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-13,1": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-12,0": {
+        "terrain": "hills",
+        "settlement": "Castle (Large shell keep, Totally deserted, Level: N/A)",
+        "population": 0,
+        "notes": "hilly forest"
+    },
+    "12,-11,-1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-10,-2": {
+        "terrain": "forest",
+        "settlement": "Ruined Village",
+        "population": 0,
+        "notes": null
+    },
+    "12,-9,-3": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-8,-4": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-7,-5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-6,-6": {
+        "terrain": "scrub",
+        "settlement": "Hamlet",
+        "population": 170,
+        "notes": null
+    },
+    "12,-5,-7": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,-4,-8": {
+        "terrain": "plain",
+        "settlement": "Hamlet",
+        "population": 356,
+        "notes": null
+    },
+    "12,-3,-9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "12,-2,-10": {
+        "terrain": "plain",
+        "settlement": "Thorp",
+        "population": 33,
+        "notes": null
+    },
+    "12,-1,-11": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,0,-12": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,1,-13": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,2,-14": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,3,-15": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "12,4,-16": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,5,-17": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,6,-18": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,7,-19": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "12,8,-20": {
+        "terrain": "hills",
+        "settlement": "Single Dwelling",
+        "population": 12,
+        "notes": "hilly forest"
+    },
+    "13,-20,7": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-19,6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-18,5": {
+        "terrain": "forest",
+        "settlement": "Thorp",
+        "population": 67,
+        "notes": null
+    },
+    "13,-17,4": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-16,3": {
+        "terrain": "rough",
+        "settlement": "Hamlet",
+        "population": 201,
+        "notes": "depression"
+    },
+    "13,-15,2": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-14,1": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-13,0": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-12,-1": {
+        "terrain": "scrub",
+        "settlement": "Single Dwelling",
+        "population": 5,
+        "notes": null
+    },
+    "13,-11,-2": {
+        "terrain": "plain",
+        "settlement": "Thorp",
+        "population": 20,
+        "notes": null
+    },
+    "13,-10,-3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "13,-9,-4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-8,-5": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-7,-6": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-6,-7": {
+        "terrain": "desert",
+        "settlement": "Single Dwelling",
+        "population": 2,
+        "notes": null
+    },
+    "13,-5,-8": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-4,-9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-3,-10": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-2,-11": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,-1,-12": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "13,0,-13": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,1,-14": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,2,-15": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,3,-16": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,4,-17": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,5,-18": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "13,6,-19": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "13,7,-20": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-20,6": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-19,5": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-18,4": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-17,3": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-16,2": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-15,1": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-14,0": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "14,-13,-1": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-12,-2": {
+        "terrain": "mountains",
+        "settlement": "Single Dwelling",
+        "population": 10,
+        "notes": null
+    },
+    "14,-11,-3": {
+        "terrain": "scrub",
+        "settlement": "Ruined City",
+        "population": 0,
+        "notes": null
+    },
+    "14,-10,-4": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-9,-5": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-8,-6": {
+        "terrain": "hills",
+        "settlement": "Hamlet",
+        "population": 254,
+        "notes": null
+    },
+    "14,-7,-7": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-6,-8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-5,-9": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-4,-10": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-3,-11": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-2,-12": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,-1,-13": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,0,-14": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,1,-15": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,2,-16": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,3,-17": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,4,-18": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,5,-19": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "14,6,-20": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-20,5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-19,4": {
+        "terrain": "hills",
+        "settlement": "Thorp",
+        "population": 51,
+        "notes": null
+    },
+    "15,-18,3": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-17,2": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-16,1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "15,-15,0": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-14,-1": {
+        "terrain": "scrub",
+        "settlement": "Ruined Village",
+        "population": 0,
+        "notes": null
+    },
+    "15,-13,-2": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-12,-3": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-11,-4": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-10,-5": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-9,-6": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-8,-7": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "hilly forest"
+    },
+    "15,-7,-8": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-6,-9": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-5,-10": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-4,-11": {
+        "terrain": "desert",
+        "settlement": "Thorp",
+        "population": 39,
+        "notes": null
+    },
+    "15,-3,-12": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-2,-13": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,-1,-14": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,0,-15": {
+        "terrain": "desert",
+        "settlement": "Single Dwelling",
+        "population": 8,
+        "notes": null
+    },
+    "15,1,-16": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,2,-17": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,3,-18": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "15,4,-19": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "15,5,-20": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-20,4": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-19,3": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-18,2": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-17,1": {
+        "terrain": "forest",
+        "settlement": "Single Dwelling",
+        "population": 4,
+        "notes": "forested hills"
+    },
+    "16,-16,0": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-15,-1": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-14,-2": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-13,-3": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-12,-4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-11,-5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-10,-6": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-9,-7": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-8,-8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-7,-9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-6,-10": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-5,-11": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-4,-12": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-3,-13": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,-2,-14": {
+        "terrain": "desert",
+        "settlement": "Village",
+        "population": 746,
+        "notes": null
+    },
+    "16,-1,-15": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,0,-16": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,1,-17": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,2,-18": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "16,3,-19": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "16,4,-20": {
+        "terrain": "plain",
+        "settlement": "Single Dwelling",
+        "population": 3,
+        "notes": null
+    },
+    "17,-20,3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "17,-19,2": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,-18,1": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "17,-17,0": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,-16,-1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,-15,-2": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,-14,-3": {
+        "terrain": "mountains",
+        "settlement": "Single Dwelling",
+        "population": 11,
+        "notes": null
+    },
+    "17,-13,-4": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "hilly forest"
+    },
+    "17,-12,-5": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,-11,-6": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,-10,-7": {
+        "terrain": "marsh",
+        "settlement": "Castle (Large shell keep, Fighter, Level: 11)",
+        "population": 0,
+        "notes": null
+    },
+    "17,-9,-8": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,-8,-9": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,-7,-10": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "17,-6,-11": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,-5,-12": {
+        "terrain": "scrub",
+        "settlement": "Thorp",
+        "population": 71,
+        "notes": null
+    },
+    "17,-4,-13": {
+        "terrain": "scrub",
+        "settlement": "Village",
+        "population": 680,
+        "notes": null
+    },
+    "17,-3,-14": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,-2,-15": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,-1,-16": {
+        "terrain": "desert",
+        "settlement": "Thorp",
+        "population": 31,
+        "notes": null
+    },
+    "17,0,-17": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,1,-18": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "17,2,-19": {
+        "terrain": "desert",
+        "settlement": "Thorp",
+        "population": 22,
+        "notes": null
+    },
+    "17,3,-20": {
+        "terrain": "marsh",
+        "settlement": "Castle (Small walled castle with keep, Cleric, Level: 10)",
+        "population": 0,
+        "notes": null
+    },
+    "18,-20,2": {
+        "terrain": "scrub",
+        "settlement": "Hamlet",
+        "population": 130,
+        "notes": null
+    },
+    "18,-19,1": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,-18,0": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,-17,-1": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,-16,-2": {
+        "terrain": "scrub",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,-15,-3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,-14,-4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,-13,-5": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,-12,-6": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,-11,-7": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,-10,-8": {
+        "terrain": "desert",
+        "settlement": "Single Dwelling",
+        "population": 10,
+        "notes": "depression"
+    },
+    "18,-9,-9": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "18,-8,-10": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,-7,-11": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "18,-6,-12": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,-5,-13": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "18,-4,-14": {
+        "terrain": "plain",
+        "settlement": "Town",
+        "population": 4565,
+        "notes": null
+    },
+    "18,-3,-15": {
+        "terrain": "plain",
+        "settlement": "Castle (Tower, Deserted (monster therein), Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "18,-2,-16": {
+        "terrain": "plain",
+        "settlement": "Castle (Medium walled castle with keep, Fighter, Level: 11)",
+        "population": 0,
+        "notes": "depression"
+    },
+    "18,-1,-17": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,0,-18": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,1,-19": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "18,2,-20": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-20,1": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-19,0": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-18,-1": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-17,-2": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-16,-3": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-15,-4": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-14,-5": {
+        "terrain": "plain",
+        "settlement": "Single Dwelling",
+        "population": 9,
+        "notes": "depression"
+    },
+    "19,-13,-6": {
+        "terrain": "marsh",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-12,-7": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-11,-8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-10,-9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-9,-10": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-8,-11": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-7,-12": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-6,-13": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-5,-14": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-4,-15": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,-3,-16": {
+        "terrain": "desert",
+        "settlement": "Ruined Village",
+        "population": 0,
+        "notes": null
+    },
+    "19,-2,-17": {
+        "terrain": "plain",
+        "settlement": "City",
+        "population": 15528,
+        "notes": null
+    },
+    "19,-1,-18": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "19,0,-19": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "pond"
+    },
+    "19,1,-20": {
+        "terrain": "desert",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-20,0": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-19,-1": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-18,-2": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-17,-3": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "20,-16,-4": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "20,-15,-5": {
+        "terrain": "hills",
+        "settlement": "Castle (Tower, Deserted (monster therein), Level: N/A)",
+        "population": 0,
+        "notes": null
+    },
+    "20,-14,-6": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-13,-7": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-12,-8": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "depression"
+    },
+    "20,-11,-9": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-10,-10": {
+        "terrain": "plain",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-9,-11": {
+        "terrain": "plain",
+        "settlement": "Ruined Village",
+        "population": 0,
+        "notes": "depression"
+    },
+    "20,-8,-12": {
+        "terrain": "rough",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-7,-13": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-6,-14": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-5,-15": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": "forested hills"
+    },
+    "20,-4,-16": {
+        "terrain": "mountains",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-3,-17": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-2,-18": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,-1,-19": {
+        "terrain": "forest",
+        "settlement": "Uninhabited",
+        "population": 0,
+        "notes": null
+    },
+    "20,0,-20": {
+        "terrain": "hills",
+        "settlement": "Uninhabited",
+        "population": 0,
         "notes": null
     }
 }

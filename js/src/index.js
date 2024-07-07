@@ -6,7 +6,7 @@ import SettlementGenerator from './settlement.js'
 async function main() {
   const startTime = Date.now()
 
-  const gridSize = 5
+  const gridSize = 20
   const grid = new Grid(gridSize)
   const terrainGenerator = new TerrainGenerator()
   const settlementGenerator = new SettlementGenerator()
@@ -35,8 +35,22 @@ async function main() {
   const jsonData = grid.toJSON()
   fs.writeFileSync('hex_grid.json', jsonData)
 
+  const totalHexes = Object.keys(grid.grid).length
+
   const elapsedTime = (Date.now() - startTime) / 1000
   console.log(`Elapsed time: ${elapsedTime.toFixed(2)} seconds`)
+  console.log(`Total number of hexes: ${totalHexes}`)
+  // area of a hexagon = 1.5 * sqrt(3) * s^2
+  // 1.95 is the area of a hexagon with a size of 1 mile
+  console.log(`Total land mass: ${(totalHexes * 1.95).toLocaleString()} square miles`)
+  const totalPopulation = Object.values(grid.grid).reduce((total, hex) => total + (hex.population || 0), 0)
+  console.log(`Total population: ${totalPopulation.toLocaleString()}`)
+  // calculate population density
+  const totalLandMass = totalHexes * 1.95
+  const populationDensity = totalPopulation / totalLandMass
+  console.log(`Population density: ${populationDensity.toFixed(2)} people per square mile`)
+
+
 }
 
 main()

@@ -6,7 +6,7 @@ import SettlementGenerator from './settlement.js'
 async function main() {
   const startTime = Date.now()
 
-  const gridSize = 100
+  const gridSize = 5
   const grid = new Grid(gridSize)
   const terrainGenerator = new TerrainGenerator()
   const settlementGenerator = new SettlementGenerator()
@@ -22,9 +22,10 @@ async function main() {
       currentTerrain = terrainResult.terrainType
       const notes = terrainResult.notes
 
-      const settlementType = settlementGenerator.getSettlementType(settlementRoll)
+      const settlementResult = settlementGenerator.getSettlementType(settlementRoll)
+      const { type: settlementType, population } = settlementResult
       const [x, y, z] = coords.split(',').map(Number)
-      grid.setProperties({ x, y, z }, { terrain: currentTerrain, settlement: settlementType, notes })
+      grid.setProperties({ x, y, z }, { terrain: currentTerrain, settlement: settlementType, population, notes })
     } catch (error) {
       console.error(error.message)
       continue

@@ -1,12 +1,12 @@
 class SettlementGenerator {
   constructor() {
     this.settlementRules = [
-      { type: 'Single Dwelling', range: [1, 3] },
-      { type: 'Thorp', range: [4, 5] },
-      { type: 'Hamlet', range: [6, 7] },
-      { type: 'Village', range: [8, 9] },
-      { type: 'Town', range: [10, 10] },
-      { type: 'City', range: [11, 11] },
+      { type: 'Single Dwelling', range: [1, 3], population: [1, 12] },
+      { type: 'Thorp', range: [4, 5], population: [20, 80] },
+      { type: 'Hamlet', range: [6, 7], population: [100, 400] },
+      { type: 'Village', range: [8, 9], population: [600, 900] },
+      { type: 'Town', range: [10, 10], population: [1500, 6500] },
+      { type: 'City', range: [11, 11], population: [10000, 60000] },
       { type: 'Castle', range: [12, 14] },
       { type: 'Ruins', range: [15, 16] },
       { type: 'Uninhabited', range: [17, 100] }
@@ -50,18 +50,42 @@ class SettlementGenerator {
     }
   }
 
+  getHumans() {
+    const roll = Math.floor(Math.random() * 100) + 1
+    if (roll <= 25) return 'Bandits'
+    if (roll <= 85) return 'Brigands'
+    if (roll <= 97) return 'Berserkers'
+    return 'Dervishes'
+  }
+
+  getCharacterTypes() {
+    const roll = Math.floor(Math.random() * 100) + 1
+    if (roll <= 18) return { type: 'Cleric', level: this.randomInRange([9, 12]) }
+    if (roll <= 20) return { type: 'Druid', level: this.randomInRange([12, 13]) }
+    if (roll <= 65) return { type: 'Fighter', level: this.randomInRange([9, 12]) }
+    if (roll <= 66) return { type: 'Paladin', level: this.randomInRange([9, 10]) }
+    if (roll <= 68) return { type: 'Ranger', level: this.randomInRange([10, 13]) }
+    if (roll <= 80) return { type: 'Magic-User', level: this.randomInRange([11, 13]) }
+    if (roll <= 85) return { type: 'Illusionist', level: this.randomInRange([10, 13]) }
+    if (roll <= 93) return { type: 'Thief', level: this.randomInRange([10, 14]) }
+    if (roll <= 96) return { type: 'Assassin', level: 14 }
+    if (roll <= 99) return { type: 'Monk', level: this.randomInRange([9, 12]) }
+    return { type: 'Bard', level: 23 }
+  }
+
   getSettlementType(roll) {
     for (const rule of this.settlementRules) {
       if (roll >= rule.range[0] && roll <= rule.range[1]) {
         if (rule.type === 'Ruins') {
-          return this.getReRolledSettlementType()
+          return { type: this.getReRolledSettlementType(), population: null }
         } else if (rule.type === 'Castle') {
-          return this.getCastleDetails()
+          return { type: this.getCastleDetails(), population: null }
         }
-        return rule.type
+        const population = rule.population ? this.randomInRange(rule.population) : null
+        return { type: rule.type, population }
       }
     }
-    return 'Uninhabited'
+    return { type: 'Uninhabited', population: null }
   }
 
   getReRolledSettlementType() {
@@ -97,7 +121,18 @@ class SettlementGenerator {
       }
     }
 
-    return `Castle (${castleType}, ${inhabitants})`
+    if (inhabitants === 'Humans') {
+      inhabitants = this.getHumans()
+    } else if (inhabitants === 'Character-types') {
+      inhabitants = this.getCharacterTypes()
+    }
+
+    return `Castle (${castleType}, ${inhabitants.type ? inhabitants.type : inhabitants}, Level: ${inhabitants.level ? inhabitants.level : 'N/A'})`
+  }
+
+  randomInRange(range) {
+    const [min, max] = range
+    return Math.floor(Math.random() * (max - min + 1)) + min
   }
 }
 

@@ -215,7 +215,7 @@ class Grid {
   }
 
   toJSON() {
-    return JSON.stringify(this.grid)
+    return JSON.stringify(this.grid, null, 4)
   }
 
   fromJSON(jsonStr) {

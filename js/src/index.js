@@ -2,6 +2,7 @@ import fs from 'fs'
 import Grid from './grid.js'
 import TerrainGenerator from './terrain.js'
 import SettlementGenerator from './settlement.js'
+import CharacterGenerator from './character.js'
 
 async function main() {
   const startTime = Date.now()
@@ -50,6 +51,24 @@ async function main() {
   const populationDensity = totalPopulation / totalLandMass
   console.log(`Population density: ${populationDensity.toFixed(2)} people per square mile`)
 
+  const characterCounts = {}
+
+for (let i = 0; i < totalPopulation; i++) {
+  const character = new CharacterGenerator()
+  const details = character.getCharacterDetails()
+  const classes = details.qualifiedClasses
+
+  // classes is an array, count each class and add to running total of characterCounts
+  for (const charClass of classes) {
+    if (characterCounts[charClass]) {
+      characterCounts[charClass]++
+    } else {
+      characterCounts[charClass] = 1
+    }
+  }
+}
+
+console.log(characterCounts)
 
 }
 

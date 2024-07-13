@@ -1,7 +1,7 @@
-import { female, male, surname, places} from './names.js'
+import { female, male, surname, places } from './names.js'
 
 class CharacterGenerator {
-    constructor(gender, lastName) {
+    constructor(lastName, gender) {
         this.gender = gender || (Math.random() < 0.5 ? 'male' : 'female')
         this.lastName = lastName || surname[Math.floor(Math.random() * surname.length)]
         this.firstName = this.gender === 'male' 
@@ -10,6 +10,7 @@ class CharacterGenerator {
         this.name = `${this.firstName} ${this.lastName}`
         this.stats = this.rollStats()
         this.qualifiedClasses = this.determineClasses()
+        this.psionic = this.determinePsionic()
     }           
   
     // Method to generate a random number between 1 and 6
@@ -31,6 +32,45 @@ class CharacterGenerator {
         constitution: this.rollDice(),
         charisma: this.rollDice()
       }
+    }
+
+    // Method to determine psionic ability based on mental stats
+    determinePsionic() {
+        const { intelligence, wisdom, charisma } = this.stats
+        const psionic = { isPsionic: false, strength: 0, ability: 0 }
+
+        if (intelligence < 16 && wisdom < 16 && charisma < 16) {
+            return psionic
+        }
+
+        let psionicChance = 0
+        if (intelligence >= 16 || wisdom >= 16 || charisma >= 16) {
+            psionicChance = 1
+        }
+        if (intelligence > 16) {
+            psionicChance += (intelligence - 16) * 2.5
+        }
+        if (wisdom > 16) {
+            psionicChance += (wisdom - 16) * 1.5
+        }
+        if (charisma > 16) {
+            psionicChance += (charisma - 16) * 1.5
+        }
+
+        const randomRoll = Math.floor(Math.random() * 100) + 1
+        if (randomRoll <= psionicChance) {
+            psionic.isPsionic = true
+            let mentalStrength = Math.max(intelligence - 12, 0) + Math.max(wisdom - 12, 0) + Math.max(charisma - 12, 0)
+            if (intelligence > 16 && wisdom > 16 && charisma > 16) {
+                mentalStrength *= 4
+            } else if ((intelligence > 16 && wisdom > 16) || (intelligence > 16 && charisma > 16) || (wisdom > 16 && charisma > 16)) {
+                mentalStrength *= 2
+            }
+            psionic.strength = mentalStrength + Math.floor(Math.random() * 100) + 1
+            psionic.ability = psionic.strength * 2
+        }
+
+        return psionic
     }
   
     // Method to determine qualified classes based on stats
@@ -69,11 +109,10 @@ class CharacterGenerator {
           gender: this.gender,
           name: this.name,
           stats: this.stats,
+          psionic: this.psionic,
           qualifiedClasses: this.qualifiedClasses
         }
     }
-  }
+}
 
-
-
-  export default CharacterGenerator
+export default CharacterGenerator
